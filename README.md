@@ -134,13 +134,10 @@ pip install -r requirements.txt
 
 ### Step 3: Configure Environment
 ```bash
-# Copy environment template
-copy .env.example .env  # Windows
-cp .env.example .env    # macOS/Linux
-```
 
-Edit `.env` file:
-```env
+Create `.env` file:
+
+
 OPENAI_API_KEY=your_openai_api_key_here
 OPENAI_MODEL=gpt-4o-mini
 RAG_TOP_K=12
